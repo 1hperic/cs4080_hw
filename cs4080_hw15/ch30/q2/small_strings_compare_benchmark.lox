@@ -1,0 +1,13 @@
+var start = clock();
+
+var i = 0;
+while (i < 100000) {
+	var a = "a";
+	var b = "b";
+	if (a == b) {
+		print "equal";
+	}
+	i = i + 1;
+}
+
+print clock() - start;

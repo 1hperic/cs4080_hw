@@ -1,0 +1,14 @@
+var ab = "ab";
+var cd = "cd";
+var ef = "ef";
+
+var start = clock();
+var i = 0;
+while (i < 100000) {
+	var x = ab;
+	var y = cd;
+	var z = ef;
+	i = i + 1;
+}
+
+print clock() - start;
